@@ -28,7 +28,7 @@ const ash = require('express-async-handler');
 // Automatically catches any error and sends to Routing Error-Handling Middleware (app.js)
 // It is the same as using "try-catch" and calling next(error)
 router.get('/', ash(async(req, res) => {
-  let students = await Student.findAll({include: [Campus]});
+  let students = await Student.findAll({include: [Campus], order: [["id", "ASC"]]});
   res.status(200).json(students);  // Status code 200 OK - request succeeded
 }));
 
