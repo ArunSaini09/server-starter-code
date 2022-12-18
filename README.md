@@ -5,6 +5,10 @@ This repository is the server (back-end) starter code for Final Project (CRUD Ap
 # Group Members:
 Arun Saini - ArunSaini09
 
+# NOTE:
+The configDB file has been changed to work for a [ dbUser = "webdev" with dbPwd = "webdev" ] instead of the original
+postgres user with no password
+
 ### Prerequisites
 - Install PostgreSQL (Postgres) [[link](https://www.postgresql.org/download/)] - required to run the database
 - Install Postman [[link](https://www.postman.com/downloads/)] - optional tool for API testing 
