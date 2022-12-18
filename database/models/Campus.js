@@ -26,7 +26,7 @@ const Campus = db.define("campus", {
   imageUrl: {
     type: Sequelize.STRING,
     allowNull: true,
-    defaultValue: "https://picsum.photos/600"
+    defaultValue: "https://resizer-awani.eco.astro.com.my/tr:w-177,h-100,q-100,f-auto/http://img.astroawani.com/2013-05/71369903859_950x600.jpg"
   }
 });
 

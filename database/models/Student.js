@@ -25,7 +25,7 @@ const Student = db.define("student", {
   imageUrl: {
     type: Sequelize.STRING,
     allowNull: true,
-    defaultValue: "https://picsum.photos/600"
+    defaultValue: "https://static.voices.com/wp-content/uploads/2022/11/ct_videoportal_pixar_mikewazoski_ddt-16832_a98c6c65-e1668010260123.jpeg"
   },
 
   gpa: {
